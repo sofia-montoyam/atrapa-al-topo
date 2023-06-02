@@ -5,22 +5,23 @@ let puntaje = document.getElementById("puntaje");
 let resultado = 0;
 let tiempoactual = tiempofaltante.textContent;
 
-function cuadradoazar {
-  cuadrado.forEach(nombredeclase => {
+function cuadradoazar() {
+  cuadrado.forEach((nombredeclase) => {
 nombredeclase.classList.remove("topo");
-  })
-  let posicionalazar = cuadrado [Math.floor (math.random() * 9)]
+  });
+  let posicionalazar = cuadrado [Math.floor (math.random() * 9)];
 posicionalazar.classlist.add("topo");
-posiciontopo.posicionalazar.Id
+
+posiciontopo = posiciontopo.posicionalazar.Id;
 }
-cuadrado.forEach (identificadoe => {
-identificador.addEventListener("click") () => {
+
+cuadrado.forEach((identificador) => {
+identificador.addEventListener("click", () => {
   if (identificador.Id === posiciontopo) {
     resultado = resultado + 1;
     puntaje.textContent = resultado;
-    posiciontopo = null;
+    posicionalazar = null;
   }  
-});
 });
 
 function movertopo (){
